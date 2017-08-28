@@ -31,7 +31,7 @@ export default {
   env: {
     production: {
       multipage: true,
-      publicPath: '/shangyu-coder/'
+      publicPath: '/shangyu-child-edu/'
     },
     development: {
       multipage: false,
