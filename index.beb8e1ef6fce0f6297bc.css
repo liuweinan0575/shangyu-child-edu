@@ -1594,11 +1594,11 @@ tbody {
   background: #888;
 }
 .normal {
-  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   z-index: 2;
+  overflow-y: scroll;
   color: white;
 }
 .normal .am-navbar {
@@ -1609,7 +1609,6 @@ tbody {
 }
 .normal .my-carousel {
   height: 5.2rem;
-  margin-top: 0.32rem;
 }
 .normal .my-carousel .my-slide {
   width: 100%;
@@ -1626,11 +1625,12 @@ tbody {
 }
 .normal .detail-doc {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: .32rem;
   margin-bottom: 1rem;
 }
 .normal .detail-doc .title {
   font-size: .48rem;
+  margin-bottom: .24rem;
 }
 .normal .detail-doc .sub {
   font-size: .32rem;

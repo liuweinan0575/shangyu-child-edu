@@ -99,8 +99,8 @@ class Index extends React.Component {
           )}
         </Carousel>
         <div className="detail-doc">
-          <p className="title">{docConfig['doc'+select].title}</p>
-          <p className="sub">{docConfig['doc'+select].sub}</p>
+          <div className="title">{docConfig['doc'+select].title}</div>
+          <div className="sub">{docConfig['doc'+select].sub}</div>
         </div>
         <div className="detail-button">
           <span onClick={()=>this.setState({modal1: true})}>查看课表</span>
