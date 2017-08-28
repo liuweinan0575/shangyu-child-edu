@@ -1609,7 +1609,7 @@ tbody {
 }
 .normal .my-carousel {
   height: 5.2rem;
-  margin-top: 0.8rem;
+  margin-top: 0.32rem;
 }
 .normal .my-carousel .my-slide {
   width: 100%;
@@ -1646,17 +1646,12 @@ tbody {
   cursor: pointer;
 }
 .normal .footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0.24rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
+  margin-top: 1rem;
+  text-align: center;
 }
 .normal .footer .support-info {
   line-height: 0.48rem;
   width: 100%;
-  text-align: center;
   color: white;
 }
 .am-modal {
